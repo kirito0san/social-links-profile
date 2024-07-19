@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+  font-family: "Inter"; /* Replace with your font's name */
+  src: url("../public/assets/fonts/static/Inter-Regular.ttf") format("woff2"); /* Add other formats if available */
+}
+body {
+  @apply bg-gray-900 flex justify-center items-center;
+}
+.center {
+  @apply flex-col flex justify-center items-center;
+}
+a {
+  @apply py-3 rounded-lg text-white hover:text-black bg-gray-700 hover:bg-green;
+}
